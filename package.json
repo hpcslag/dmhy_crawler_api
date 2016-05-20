@@ -1,0 +1,23 @@
+{
+  "name": "share.dmhy.org.parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "request": "^2.72.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hpcslag/dmhy_crawler_api.git"
+  },
+  "author": "MacTaylor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hpcslag/dmhy_crawler_api/issues"
+  },
+  "homepage": "https://github.com/hpcslag/dmhy_crawler_api#readme"
+}
