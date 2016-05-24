@@ -4,7 +4,8 @@
   "description": "",
   "main": "test.js",
   "dependencies": {
-    "request": "^2.72.0"
+    "request": "^2.72.0",
+    "cheerio": "^0.20.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/hpcslag/dmhy_crawler_api/issues"
   },
-  "homepage": "https://github.com/hpcslag/dmhy_crawler_api#readme"
+  "homepage": "https://github.com/hpcslag/dmhy_crawler_api#readme",
+  "directories": {
+    "test": "test"
+  }
 }
