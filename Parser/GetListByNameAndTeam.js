@@ -14,19 +14,14 @@ module.exports = function(keyword,team_id,callback){
 
 				var href = inside(".download-arrow").attr("href");
 
-				console.log(title + " : " + href);
-				console.log("=========================");
-
 				var object = {
-					title : title,
-					magnet : ""
+					title : title.replace(/[\n\t\r]/g,""),
+					magnet : href
 				}
 
 				result.push(object); 
 			}
-			/*for(var i =0;i<result.length;i++){
-				console.log(result[i]);
-			}*/
+			callback(result);
 		}
 	});
 }
