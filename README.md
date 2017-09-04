@@ -1,12 +1,12 @@
 # dmhy_crawler_api
-###TODO LIST:
+### TODO LIST:
  - Get all names in season.
  - Search
  - Get all Session in season by subtitle team name
   - In list has so many titles, and will just show the pattern when neighbors pattern not match. (give user to select what pattern is you want)
 
-#api
-###Get Weekly List by day:
+# api
+### Get Weekly List by day:
 ```javascript
 var weeklyList = require("./GetSeasonWeeklyList.js");
 
@@ -20,7 +20,7 @@ new weeklyList(function(weekly){
 });
 ```
 
-###Get Anime List by Team_id and name:
+### Get Anime List by Team_id and name:
 ```javascript
 result('學戰',303,function(weekly){
 	console.log(weekly[0].title)
@@ -28,10 +28,10 @@ result('學戰',303,function(weekly){
 });
 ```
 
-###Get team list by Search anime name:
+### Get team list by Search anime name:
 ```
 ```
 
-###Get anime name search result:
+### Get anime name search result:
 ```
 ```
